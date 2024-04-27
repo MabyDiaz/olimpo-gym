@@ -19,4 +19,30 @@ window.onscroll = () => {
   }
 };
 
+// Contacto - Validación del formulario
+document
+  .getElementById("formularioContacto")
+  .addEventListener("submit", function (event) {
+    var nombre = document.getElementById("nombre").value;
+    var email = document.getElementById("email").value;
+    var telefono = document.getElementById("telefono").value;
+    var mensaje = document.getElementById("mensaje").value;
+    var motivo = document.getElementById("motivo").value;
+    var imagen = document.getElementById("imagen").value;
+    var preferencias = document.querySelectorAll(
+      'input[name="preferencias"]:checked'
+    ).length;
 
+    if (
+      !nombre ||
+      !email ||
+      !telefono ||
+      !mensaje ||
+      !motivo ||
+      !imagen ||
+      preferencias === 0
+    ) {
+      alert("Por favor, completa todos los campos obligatorios.");
+      event.preventDefault();
+    }
+  });

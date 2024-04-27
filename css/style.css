@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("./header.css");
 @import url("./membresia.css");
+@import url("./contacto.css");
 
 :root {
   --main-color: #f73471;
@@ -44,84 +46,6 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 
-/* Header */
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 3rem 9%;
-  background-color: rgba(0, 0, 0, 0.6);
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1000;
-}
-
-.header .logo {
-  font-size: 2.5rem;
-  color: var(--white);
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-}
-
-.header .logo span {
-  color: var(--main-color);
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.header .navbar a {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: var(--white);
-  margin: 0 1rem;
-}
-
-.header .navbar a:hover {
-  color: var(--main-color);
-}
-
-.header .icons div {
-  font-size: 2.5rem;
-  color: var(--white);
-  padding: 0.5rem;
-  cursor: pointer;
-  margin-left: 1rem;
-}
-
-.header .icons div:hover {
-  transform: rotate(180deg);
-  color: var(--main-color);
-}
-
-.header .icons a {
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-  color: #ffffff;
-  background-color: var(--main-color);
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 0.8rem 2rem;
-}
-
-.header .icons a:hover {
-  color: var(--main-color);
-  background-color: #ffffff;
-}
-
-#menu-btn {
-  display: none;
-}
-
-.header .active {
-  padding: 2rem 9%;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
 /* Main */
 .video-container {
   position: relative;
@@ -163,7 +87,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .hero-title {
-  font-size: 5rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
@@ -212,92 +138,16 @@ html::-webkit-scrollbar-thumb {
   html {
     font-size: 55%;
   }
-
-  .header {
-    padding: 2rem;
-  }
-
-  .header .active {
-    padding: 2rem;
-  }
-
-  .hero-title {
-    font-size: 6.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-  }
-
-  .btn-primary,
-  .btn-secondary {
-    font-size: 2.3rem;
-  }
 }
 
 @media (max-width: 768px) {
   #menu-btn {
     display: inline-block;
   }
-
-  .header {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-
-  .header .navbar {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-top: 0.1rem solid #eeeeee;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-
-  .header .navbar.active {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-
-  .header .navbar a {
-    display: block;
-    margin: 2rem;
-    font-size: 1.8rem;
-  }
-
-  .hero-title {
-    font-size: 5.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 2.8rem;
-  }
-
-  .buttons {
-    flex-direction: column;
-    margin-top: 1rem;
-  }
-
-  .btn-primary,
-  .btn-secondary {
-    padding: 1.5rem 3rem;
-    font-size: 2rem;
-  }
-
-  .btn-secondary {
-    margin-top: 2rem;
-  }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
-  }
-
-  .header .icons a {
-    letter-spacing: none;
-    font-size: 1.3rem;
-    padding: 1rem;
   }
 }
