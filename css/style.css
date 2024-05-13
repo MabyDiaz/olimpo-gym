@@ -94,9 +94,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .hero-subtitle {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 3rem auto 6rem;
-  max-width: 50rem;
+  max-width: 40rem;
 }
 
 .buttons {
