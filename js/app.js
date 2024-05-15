@@ -29,18 +29,17 @@ document
     var mensaje = document.getElementById("mensaje").value;
     var motivo = document.getElementById("motivo").value;
     var imagen = document.getElementById("imagen").value;
-    var preferencias = document.querySelectorAll(
+    /*var preferencias = document.querySelectorAll(
       'input[name="preferencias"]:checked'
-    ).length;
+    ).length;*/
 
-    if (
+    if ( //se quito la consulta por "preferencias"
       !nombre ||
       !email ||
       !telefono ||
       !mensaje ||
       !motivo ||
-      !imagen ||
-      preferencias === 0
+      !imagen === 0
     ) {
       alert("Por favor, completa todos los campos obligatorios.");
       event.preventDefault();
