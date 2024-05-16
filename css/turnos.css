@@ -6,19 +6,40 @@
     background-size: cover;
 }
 
+.turno-h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #fff;
+}
+
 .main-table{
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    width: 65%;
-    max-height: fit-content;
+    width: 60%;
     padding: 2rem;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    top: 17vh;
+}
+
+table{
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 th{
-    padding: 2rem;
+    padding: 1rem 0.5rem;
     letter-spacing: 1px;
     color: #fff;
     font-size: 1.4rem;
@@ -26,33 +47,10 @@ th{
 }
 
 td{
-    padding: 0.8rem;
+    height: 1.8rem;
     letter-spacing: 1px;
     font-size: 1.2rem;
-}
-
-.turno-h2{
-    text-transform: uppercase;
-    font-size: 2rem;
-    padding: 1rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    text-align: center;
-    color: #fff;
-}
-
-table{
-    color: black;
-    text-align: center;
-    width: 60%;
-    max-height: 5rem;
-    border-collapse: collapse;
-    /*border: 3px solid var(--main-color);*/
-    font-family: "Roboto", sans-serif;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0.5rem;
 }
 
 tbody tr:nth-child(odd) {
@@ -63,9 +61,8 @@ tbody tr:nth-child(even) {
     background-color: var(--third-color);
 }
 
-button{
-    width: 100%;
-    height: 100%;
-    padding: 0.6rem;
+td>button{
+    width: 8rem;
+    height: 1.5rem;
     background-color: rgb(49, 179, 103); /*provisorio mientras vamos probando boton*/
 }
