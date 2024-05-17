@@ -1,0 +1,66 @@
+/* Estilos para membresía.html */
+
+.header{
+    height: 15vh;
+}
+
+.acercade-main{
+position: relative;
+top: 20vh;
+align-items: center;
+text-align: center;
+}
+
+.acercade-text{  
+    font-size: 2rem;
+    /* color: var(--second-color); */
+    background-color: #333;
+    width: 50%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acercade-text>h2{
+    font-size: 2.2rem;
+    color: var(--second-color);
+}
+
+.acercade-text>h3{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #fff;
+}
+
+.mapa{
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+background-color: transparent;
+border: 1.5px solid var(--main-color);
+color: #fff;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 1024px) {
+.membresia-form {
+    width: 80%;
+}
+}
+
+@media (max-width: 768px) {
+.fila {
+    flex-direction: column;
+}
+}
+
+@media (max-width: 450px) {
+}
+  
