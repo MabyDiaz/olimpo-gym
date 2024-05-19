@@ -3,6 +3,7 @@
 @import url('./membresia.css');
 @import url('./contacto.css');
 @import url('./acercade.css');
+@import url('./turnos.css');
 
 :root {
   --main-color: #f73471;

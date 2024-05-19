@@ -1,68 +1,72 @@
 /* Estilos para turnos.html */
 
-.turnos{
-    background-image: url(../assets/images/contacto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.turnos {
+  background-image: url(../assets/images/fondoGym2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.turno-h2{
-    text-transform: uppercase;
-    font-size: 2rem;
-    padding: 0.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    text-align: center;
-    color: #fff;
+.turno-h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #fff;
 }
 
-.main-table{
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 2rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    width: 60%;
-    padding: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 17vh;
+.main-table {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 60%;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 17vh;
 }
 
-table{
-    color: black;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;   
+table {
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-th{
-    padding: 1rem 0.5rem;
-    letter-spacing: 1px;
-    color: #fff;
-    font-size: 1.4rem;
-    border-top: 3px solid var(--main-color);
+th {
+  padding: 1rem 0.5rem;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 1.4rem;
+  border-top: 3px solid var(--main-color);
 }
 
-td{
-    height: 1.8rem;
-    letter-spacing: 1px;
-    font-size: 1.2rem;
-    padding: 0.5rem;
+td {
+  height: 1.8rem;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: var(--second-color);
-}
-  
-tbody tr:nth-child(even) {
-    background-color: var(--third-color);
+  background-color: var(--second-color);
 }
 
-td>button{
-    width: 8rem;
-    height: 1.5rem;
-    background-color: rgb(49, 179, 103); /*provisorio mientras vamos probando boton*/
+tbody tr:nth-child(even) {
+  background-color: var(--third-color);
+}
+
+td > button {
+  width: 8rem;
+  height: 1.5rem;
+  background-color: rgb(
+    49,
+    179,
+    103
+  ); /*provisorio mientras vamos probando boton*/
 }

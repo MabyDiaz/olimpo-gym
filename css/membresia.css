@@ -13,13 +13,6 @@
 
 .membresia-main {
   height: 100vh; 
-  /* con flex se colapsa el formulario en pantallas pequeñas, usaremos grid aqui
-  display: flex;  
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  */
-
   display: grid;
   justify-content: center;
   align-items: center;
@@ -36,7 +29,6 @@
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
   align-self: center; /*centrado con respecto al grid padre*/
   justify-self: center;
 
