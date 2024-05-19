@@ -1,6 +1,6 @@
 /* Estilos Contacto */
 .contacto {
-  background-image: url(../assets/images/contacto.jpg);
+  background-image: url(../assets/images/fondoGym4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -19,13 +19,13 @@
   font-size: 1.2rem;
 }
 
-.formulario-contacto input[type="text"],
-.formulario-contacto input[type="email"],
-.formulario-contacto input[type="tel"],
+.formulario-contacto input[type='text'],
+.formulario-contacto input[type='email'],
+.formulario-contacto input[type='tel'],
 .formulario-contacto textarea,
 .formulario-contacto select,
 .formulario-contacto button,
-.formulario-contacto input[type="file"] {
+.formulario-contacto input[type='file'] {
   width: 100%;
   padding: 0.7rem;
   margin-top: 0.5rem;
@@ -47,7 +47,7 @@
 }
 
 /* Estilos para el botón de envío */
-.formulario-contacto button[type="submit"] {
+.formulario-contacto button[type='submit'] {
   background-color: var(--main-color); /* Color de fondo */
   color: white; /* Color de texto */
   border: none;
@@ -57,7 +57,7 @@
   letter-spacing: 0.1px;
 }
 
-.formulario-contacto button[type="submit"]:hover {
+.formulario-contacto button[type='submit']:hover {
   background-color: transparent;
   border: 1.5px solid var(--main-color); /* Borde con el color principal al pasar el mouse */
   color: var(--main-color); /* Color de texto al pasar el mouse */

@@ -1,66 +1,137 @@
-/* Estilos para membresía.html */
-
-.header{
-    height: 15vh;
+/* Estilos acercaDe.html */
+.acercade {
+  background-image: url(../assets/images/fondoGym2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.acercade-main{
-position: relative;
-top: 20vh;
-align-items: center;
-text-align: center;
+.header {
+  height: 15vh;
 }
 
-.acercade-text{  
-    font-size: 2rem;
-    /* color: var(--second-color); */
-    background-color: #333;
-    width: 50%;
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    opacity: 0.8;
-    margin-left: auto;
-    margin-right: auto;
+.acercade-main {
+  position: relative;
+  top: 20vh;
+  align-items: center;
+  text-align: center;
 }
 
-.acercade-text>h2{
-    font-size: 2.2rem;
-    color: var(--second-color);
+.acercade-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
 }
 
-.acercade-text>h3{
-    font-size: 1.5rem;
-    margin: 1rem;
-    color: #fff;
+.acercade-img img {
+  width: 25%;
 }
 
-.mapa{
-    margin-top: 1rem;
+.acercade-text {
+  background-color: #333;
+  width: 50%;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  line-height: 2rem;
 }
 
-button[type="submit"]:hover {
-background-color: transparent;
-border: 1.5px solid var(--main-color);
-color: #fff;
+.acercade-text > p {
+  font-size: 1.6rem;
+  color: var(--white);
 }
 
+.acercade-text > h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 2rem 1rem 1rem 0rem;
+  color: #fff;
+}
 
+.acercade-text > h3 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: #fff;
+}
 
+/* Estilos de las tarjetas */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-headline {
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card-description {
+  font-size: 1em;
+  color: #666;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+.card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f73471;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.card .btn:hover {
+  background-color: #e02c63;
+}
+
+/*-------------------------------------------------------*/
+
+.mapa {
+  margin-top: 1rem;
+}
+
+button[type='submit']:hover {
+  background-color: transparent;
+  border: 1.5px solid var(--main-color);
+  color: #fff;
+}
 
 /* Responsive */
 @media (max-width: 1024px) {
-.membresia-form {
+  .membresia-form {
     width: 80%;
-}
+  }
 }
 
 @media (max-width: 768px) {
-.fila {
+  .fila {
     flex-direction: column;
-}
+  }
 }
 
 @media (max-width: 450px) {
 }
-  
