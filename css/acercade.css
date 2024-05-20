@@ -3,6 +3,7 @@
   background-image: url(../assets/images/fondoGym2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .header {
@@ -228,34 +229,59 @@
   margin: 5px 0;
 }
 
-/*-------------------------------------------------------*/
-
-.acercade-main > h3 {
-  font-size: 1.5rem;
-  margin: 1rem;
-  color: #fff;
-}
-
-.mapa {
-  margin-top: 1rem;
-}
-
-button[type='submit']:hover {
-  background-color: transparent;
-  border: 1.5px solid var(--main-color);
-  color: #fff;
-}
-
 /* Responsive */
 @media (max-width: 1024px) {
-  .membresia-form {
-    width: 80%;
+  .acercade-main {
+    top: 15vh;
+  }
+
+  .acercade-text {
+    width: 90%;
+  }
+
+  .acercade-main h2 {
+    margin: 1rem 0rem;
+  }
+
+  .cards-container {
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px 0 10px;
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .card .btn {
+    padding: 10px 10px;
+  }
+
+  .modal-content {
+    width: 70%;
   }
 }
 
 @media (max-width: 768px) {
-  .fila {
-    flex-direction: column;
+  .acercade-img {
+    margin: 10px 0 5px 0;
+  }
+
+  .acercade-text > p {
+    font-size: 2rem;
+    line-height: 1.2em;
+  }
+
+  .cards-container {
+    margin: 5px 0;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .card img {
+    max-width: 100%;
   }
 }
 
