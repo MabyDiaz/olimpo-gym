@@ -1,6 +1,6 @@
 /* Estilos para membresía.html */
 
-.header{
+.header {
   height: 15vh;
 }
 
@@ -8,15 +8,14 @@
   background-image: url(../assets/images/membresia.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;  
+  height: 100vh;
 }
 
 .membresia-main {
-  height: 100vh; 
+  height: 100vh;
   display: grid;
   justify-content: center;
   align-items: center;
-
 }
 
 .membresia-form {
@@ -31,7 +30,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   align-self: center; /*centrado con respecto al grid padre*/
   justify-self: center;
-
 }
 
 .membresia-titulo {
@@ -81,26 +79,23 @@
   display: inline-block;
 }
 
-
-.input-form-membresia[type="file"] {
+.input-form-membresia[type='file'] {
   padding-top: 7px;
   margin: 0px;
   color: #fff;
 }
 
-.input-form-membresia[type="file"]::file-selector-button {
+.input-form-membresia[type='file']::file-selector-button {
   background-color: var(--main-color);
   color: var(--main-color);
   color: #fff;
   display: inline-block;
 }
 
-.input-form-membresia{
+.input-form-membresia {
   color: #fff;
   padding-left: 1rem;
 }
-
-
 
 select#membresia {
   width: 50%;
@@ -117,10 +112,10 @@ select#membresia {
 
 select#membresia option {
   background-color: transparent;
-  color: #fff;
+  color: #000000;
 }
 
-button[type="submit"] {
+button[type='submit'] {
   padding: 1.2rem 10rem;
   background-color: var(--main-color);
   color: #fff;
@@ -132,7 +127,7 @@ button[type="submit"] {
   margin-top: 2rem;
 }
 
-button[type="submit"]:hover {
+button[type='submit']:hover {
   background-color: transparent;
   border: 1.5px solid var(--main-color);
   color: #fff;
@@ -143,8 +138,6 @@ button[type="submit"]:hover {
   font-size: 14px;
   margin-top: 5px;
 }
-
-
 
 /* Responsive */
 @media (max-width: 1024px) {

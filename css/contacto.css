@@ -42,40 +42,43 @@
   color: white;
 }
 
-.formulario-contacto label {
-  font-size: 1.2rem;
-}
-
-.formulario-contacto input[type='text'],
-.formulario-contacto input[type='email'],
-.formulario-contacto input[type='tel'],
-.formulario-contacto textarea,
-.formulario-contacto select,
-.formulario-contacto button,
-.formulario-contacto input[type='file'] {
-  width: 100%;
-  padding: 0.7rem;
+.label-form-contacto {
+  font-size: 1.5rem;
+  font-weight: 6rem;
+  color: #fff;
+  padding-bottom: 2rem;
+  margin-bottom: -12px;
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  border: 1px solid #ffffff00;
-  border-radius: 0.7rem;
-  box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.1); /* Color de fondo */
-  color: var(white);
+  display: inline-block;
 }
 
-.formulario-contacto select {
-  appearance: none; /* Elimina el estilo nativo de los selects */
-  padding-right: 30px; /* Agrega espacio para la flecha personalizada */
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ffffff"><path d="M7 10l5 5 5-5z"/></svg>'); /* Flecha personalizada */
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  background-size: 20px 20px;
+.input-form-contacto {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--white);
+  border: 2px solid var(--main-color);
+  border-radius: 0.6rem;
+  width: 100%;
+  display: inline-block;
+}
+
+select#motivo option {
+  background-color: var(--white);
+  color: #000000;
+}
+
+.input-form-contacto[type='file']::file-selector-button {
+  background-color: var(--main-color);
+  color: var(--main-color);
+  color: #fff;
+  display: inline-block;
 }
 
 /* Estilos para el botón de envío */
 .formulario-contacto button[type='submit'] {
-  background-color: var(--main-color); /* Color de fondo */
+  background-color: var(--main-color);
   color: white;
   border: none;
   cursor: pointer;
