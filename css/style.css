@@ -37,20 +37,23 @@ html {
   /* overflow: hidden; */
 }
 
-html::-webkit-scrollbar {
-  width: 1rem;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
-html::-webkit-scrollbar-track {
-  background-color: #fafafa;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-html::-webkit-scrollbar-thumb {
-  background-color: var(--main-color);
-  border-radius: 5rem;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-/* Main */
 .video-container {
   position: relative;
   width: 100%;
@@ -138,14 +141,15 @@ html::-webkit-scrollbar-thumb {
   border-color: var(--main-color);
 }
 
-/* Footer */
-
 .footer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #000000;
+  background-color: #000;
   color: white;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-left,
