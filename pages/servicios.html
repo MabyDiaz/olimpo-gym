@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Servicios</title>
 </head>
 
-<body>
+<body class="servicios">
     <header class="header">
-        <a href="../index.html" class="logo">Olimpo<span>Gym</span></a>
+        <a href="../index.html" class="logo"><img src="/assets/images/logoOlimpoGym.png" alt="Logo Olimpo Gym"
+                class="logo-image">Olimpo<span>Gym</span></a>
 
         <nav class="navbar">
             <nav class="navbar">
@@ -35,8 +36,49 @@
 
     </header>
 
-    <main>
-
+    <main class="servicios-main">
+        <h1>Nuestros Servicios</h1>
+        <div class="cards-container">
+            <!-- Tarjeta 1 -->
+            <div class="card-servicio">
+                <h3 class="card-headline-servicio">Active <span>Weekly</span></h3>
+                <div class="pink-line"></div>
+                <p class="card-desc-servicio">Disfruta de acceso ilimitado a nuestras instalaciones y participa en
+                    clases
+                    de crossfit, zumba y yoga hasta 3 veces por semana. <br><br>Ideal para aquellos que buscan
+                    mantenerse
+                    activos regularmente!</p>
+                <p class="card-price">$10.000/mes</p>
+                <a href="javascript:void(0);" class="btn obtener-servicio" data-service="Tres Veces por Semana">Obtener
+                    Servicio</a>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="card-servicio">
+                <h3 class="card-headline-servicio">Monthly <span>Flex</span></h3>
+                <div class="pink-line"></div>
+                <p class="card-desc-servicio">Acceso ilimitado a todas nuestras instalaciones y clases de crossfit,
+                    zumba
+                    y yoga durante un mes completo. <br><br>Perfecto para quienes buscan un compromiso a corto plazo con
+                    grandes
+                    beneficios!</p>
+                <p class="card-price">$20.000/mes</p>
+                <a href="javascript:void(0);" class="btn obtener-servicio" data-service="Acceso Mensual">Obtener
+                    Servicio</a>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="card-servicio">
+                <h3 class="card-headline-servicio">Elite <span>Yearly</span></h3>
+                <div class="pink-line"></div>
+                <p class="card-desc-servicio">Obtén acceso ilimitado a nuestras instalaciones y clases de crossfit,
+                    zumba
+                    y yoga durante todo un año, junto con entrenamiento personalizado. <br><br>La mejor opción para
+                    quienes
+                    buscan un compromiso serio con su salud y bienestar!</p>
+                <p class="card-price">$100.000/año</p>
+                <a href="javascript:void(0);" class="btn obtener-servicio" data-service="Acceso Anual">Obtener
+                    Servicio</a>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">

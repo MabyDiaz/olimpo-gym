@@ -4,6 +4,7 @@
 @import url('./contacto.css');
 @import url('./acercade.css');
 @import url('./turnos.css');
+@import url('./servicios.css');
 
 :root {
   --main-color: #f73471;
@@ -20,7 +21,6 @@
   text-decoration: none;
   border: none;
   outline: none;
-  /*text-transform: capitalize;*/
   transition: all 0.2s linear;
 }
 

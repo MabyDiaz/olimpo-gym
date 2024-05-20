@@ -50,10 +50,11 @@
 .acercade-text > h2,
 .acercade-main h2 {
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin: 2rem 1rem 1rem 0rem;
   color: #fff;
+  text-shadow: 2px 2px 4px rgb(252, 3, 219);
 }
 
 /* Estilos de las tarjetas */
@@ -71,12 +72,19 @@
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 10px;
+  padding: 1em;
   width: 25%;
   height: auto;
   text-align: center;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
@@ -86,10 +94,10 @@
 }
 
 .card-headline {
-  font-size: 1.7em;
+  font-size: 2em;
   font-weight: bold;
   color: #333;
-  margin: 10px 0;
+  margin: 15px 0 10px 0;
   flex: 0 0 auto;
 }
 
@@ -108,7 +116,7 @@
   padding: 10px 20px;
   background-color: #f73471;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-decoration: none;
   border-radius: 5px;
   margin: 5px;
@@ -116,7 +124,10 @@
 }
 
 .card .btn:hover {
-  background-color: #e02c63;
+  font-weight: bold;
+  background-color: transparent;
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
 }
 
 /* Estilos del modal */
@@ -132,15 +143,62 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.modal.show {
+  display: block;
+}
+
 .modal-content {
   background-color: #fff;
   margin: 10% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
+  width: 50%;
   display: flex;
   flex-direction: row;
+}
+
+.modal-content .modal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.pink-line {
+  width: 95%;
+  height: 3px;
+  background-color: var(--main-color);
+  border-radius: 2px;
+}
+
+.modal-content .modal-info h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.modal-content .modal-info h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.modal-content .modal-info p {
+  font-size: 1.8rem;
+}
+
+.modal-content .modal-info .frase-motivadora {
+  font-style: italic;
+  padding-right: 20px;
+}
+
+.modal-content .modal-info .autor {
+  text-align: end;
+  font-size: 1.3rem;
+  margin-top: 5px;
+  padding-right: 22px;
 }
 
 .modal-content img {
@@ -148,12 +206,8 @@
   margin-right: 20px;
 }
 
-.modal-content .modal-info {
-  max-width: 60%;
-}
-
 .modal-close {
-  color: #aaa;
+  color: var(--main-color);
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -175,6 +229,7 @@
 }
 
 /*-------------------------------------------------------*/
+
 .acercade-main > h3 {
   font-size: 1.5rem;
   margin: 1rem;
