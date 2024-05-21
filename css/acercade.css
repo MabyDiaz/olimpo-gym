@@ -12,9 +12,12 @@ body {
 
 .acercade {
   background-image: url(../assets/images/fondoGym2.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-size:cover;
   background-position: center center;
+  margin: 0;
+  padding: 0;
+  margin: 5rem 0;
 }
 
 .header {

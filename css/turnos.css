@@ -20,12 +20,15 @@
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  width: 60%;
+  max-width: 60%;
   padding: 2rem;
-  margin-left: auto;
+  margin: 17vh auto 10vh auto;
+  /* position: relative; */
+
+  /*margin-left: auto;
   margin-right: auto;
-  position: relative;
-  top: 17vh;
+  margin-bottom: 25vh;
+  top: 17vh;*/
 }
 
 table {
