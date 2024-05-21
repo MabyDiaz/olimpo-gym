@@ -5,6 +5,7 @@
 @import url('./acercade.css');
 @import url('./turnos.css');
 @import url('./servicios.css');
+@import url('./reset.css');
 
 :root {
   --main-color: #f73471;
