@@ -5,6 +5,9 @@
   /* background-repeat: no-repeat; */
   background-size: cover;
   position: relative;
+  height: 100vh;
+  margin-bottom: 40vh;
+
 }
 
 .main-contacto {
@@ -12,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10rem;
+  margin-top: 15vh;
 }
 
 .contacto-container {
@@ -21,7 +24,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  /* gap: 1rem; */
   margin: 5rem 0;
 }
 
