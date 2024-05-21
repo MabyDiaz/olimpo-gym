@@ -25,6 +25,12 @@
   margin: 5rem 0;
 }
 
+.boton-enviar{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-contacto h1 {
   text-transform: uppercase;
   font-size: 3rem;
