@@ -2,8 +2,9 @@
 
 .servicios {
   background-image: url(../assets/images/fondoGym4.png);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
+  margin: auto;
 }
 
 .servicios-main {
@@ -29,7 +30,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 0;
+  margin: 5rem 0;
 }
 
 .card-servicio {
@@ -46,6 +47,7 @@
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 30rem;
 }
 
 .card-servicio:hover {

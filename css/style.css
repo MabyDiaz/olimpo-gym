@@ -5,6 +5,7 @@
 @import url('./acercade.css');
 @import url('./turnos.css');
 @import url('./servicios.css');
+@import url('./reset.css');
 
 :root {
   --main-color: #f73471;
@@ -141,14 +142,6 @@ body {
   border-color: var(--main-color);
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #000;
-  color: white;
-}
-
 .footer-left,
 .footer-right {
   display: flex;
@@ -168,11 +161,27 @@ body {
   gap: 15px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  height: 5vh;
+  background-color: #000;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  align-items: center;
+}
+
 .social-media a i {
   color: var(--white);
-  margin: 0 10px;
+  /* margin: 0 10px; */
   font-size: 2rem;
   transition: color 0.3s, transform 0.3s;
+  margin: auto 0.7rem;
+  align-items: center;
+  text-align: center;
 }
 
 .social-media a i:hover {

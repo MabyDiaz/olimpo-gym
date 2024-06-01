@@ -1,8 +1,13 @@
 /* Estilos Contacto */
 .contacto {
   background-image: url(../assets/images/fondoGym4.png);
-  background-repeat: no-repeat;
+  background-position: center;
+  /* background-repeat: no-repeat; */
   background-size: cover;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 40vh;
+
 }
 
 .main-contacto {
@@ -10,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 11rem;
+  margin-top: 15vh;
 }
 
 .contacto-container {
@@ -19,7 +24,14 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  /* gap: 1rem; */
+  margin: 5rem 0;
+}
+
+.boton-enviar{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-contacto h1 {
@@ -29,16 +41,15 @@
   color: var(--white);
   text-shadow: 2px 2px 4px rgb(252, 3, 219);
   margin-top: 2rem;
-  text-align: center;
 }
 
 .formulario-contacto {
-  width: 50%;
+  width: 45%;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 2%;
   border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-  margin: 2rem auto;
+  margin: 1rem auto;
   color: white;
 }
 
