@@ -1,13 +1,12 @@
 /* Estilos Contacto */
 .contacto {
-  background-image: url(../assets/images/fondoGym4.png);
+  background-image: url(../assets/images/fondoGym4.jpg);
   background-position: center;
   /* background-repeat: no-repeat; */
   background-size: cover;
   position: relative;
   height: 100vh;
   margin-bottom: 40vh;
-
 }
 
 .main-contacto {
@@ -28,7 +27,7 @@
   margin: 5rem 0;
 }
 
-.boton-enviar{
+.boton-enviar {
   display: flex;
   margin-left: auto;
   margin-right: auto;
