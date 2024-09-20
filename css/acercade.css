@@ -13,7 +13,7 @@ body {
 .acercade {
   background-image: url(../assets/images/fondoGym2.jpeg);
   /* background-repeat: no-repeat; */
-  background-size:cover;
+  background-size: cover;
   background-position: center center;
   margin: 0;
   padding: 0;
@@ -172,6 +172,11 @@ body {
   width: 50%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.modal-content .modal-contenido {
+  display: flex;
 }
 
 .modal-content .modal-info {
@@ -219,7 +224,7 @@ body {
 }
 
 .modal-content img {
-  max-width: 40%;
+  max-width: 30%;
   margin-right: 20px;
 }
 
@@ -228,6 +233,9 @@ body {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 10px;
 }
 
 .modal-close:hover,
@@ -274,7 +282,7 @@ body {
   }
 
   .modal-content {
-    width: 70%;
+    width: 90%;
   }
 }
 
@@ -293,7 +301,7 @@ body {
   }
 
   .card {
-    width: 40%;
+    width: 70%;
   }
 
   .card img {
