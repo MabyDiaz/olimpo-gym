@@ -175,9 +175,6 @@ body {
   align-items: center;
   position: relative;
 }
-.modal-content .modal-contenido {
-  display: flex;
-}
 
 .modal-content .modal-info {
   display: flex;
@@ -194,18 +191,26 @@ body {
   border-radius: 2px;
 }
 
-.modal-content .modal-info h3 {
+.modal-content .modal-info h2 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-top: 10px;
 }
 
-.modal-content .modal-info h2 {
+.modal-content .modal-info h3,
+.modal-content .modal-info h4 {
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 10px;
   padding-right: 20px;
 }
+
+/* .modal-content .modal-info h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-right: 20px;
+} */
 
 .modal-content .modal-info p {
   font-size: 1.8rem;
@@ -314,6 +319,12 @@ body {
 
   .modal-content {
     margin-top: 200px;
+    flex-direction: column-reverse;
+  }
+
+  .modal-content .modal-info h2,
+  .modal-content .modal-info h3 {
+    text-align: center;
   }
 
   .formulario-contacto {
