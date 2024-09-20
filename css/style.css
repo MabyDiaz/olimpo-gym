@@ -110,6 +110,7 @@ body {
 .buttons {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
 .btn-primary,
@@ -172,6 +173,7 @@ body {
   width: 100%;
   align-items: center;
   padding: 20px;
+  width: 100%;
 }
 
 .social-media a i {
@@ -210,5 +212,9 @@ body {
 
   .footer-left {
     font-size: 1.8rem;
+  }
+
+  .buttons {
+    gap: 15px;
   }
 }
