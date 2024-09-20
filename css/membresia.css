@@ -104,7 +104,7 @@ select#membresia {
   border: 2px solid var(--main-color);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-bottom: 1rem;
   border-radius: 0.6rem;
   color: #fff;
@@ -125,7 +125,7 @@ button[type='submit'] {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 2rem;
+  /* margin-top: 1rem; */
 }
 
 button[type='submit']:hover {
