@@ -151,6 +151,10 @@ button[type='submit']:hover {
   .fila {
     flex-direction: column;
   }
+
+  .membresia-form {
+    width: 100%;
+  }
 }
 
 @media (max-width: 450px) {
